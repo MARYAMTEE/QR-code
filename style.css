@@ -36,17 +36,19 @@ body{
 @media only screen and (min-width: 1200px){
     .container{
         width: 36rem;
-        border-radius: 10px;
-        padding: 20px 20px 40px 20px;
+        border-radius: 15px;
+        padding: 20px;
         background-color: hsl(0, 0%, 100%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 
 @media only screen and (min-width: 200px){
     .container{
         width: 20rem;
-        border-radius: 10px;
-        padding: 16px 16px 40px 16px;
+        border-radius: 15px;
+        padding: 16px;
         background-color: hsl(0, 0%, 100%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
